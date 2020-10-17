@@ -3,7 +3,7 @@ import Layout, { siteTitle } from "../components/Layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
-import DateInfo from "../../components/DateInfo";
+import DateInfo from "../components/DateInfo";
 
 export default function Home({ allPostsData }) {
   return (
